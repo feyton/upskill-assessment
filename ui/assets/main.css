@@ -21,7 +21,7 @@ main {
     height: fit-content;
     width: fit-content;
     box-shadow: 0px 0px 3px 3px gray;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
     max-width: 60%;
     background-image: url("./upskill.jpg");
     background-size: cover;
@@ -43,13 +43,16 @@ main .form-control {
     font-family: "Lexend";
     width: 100%;
 }
+main .form-control::placeholder {
+    font-size: 10px;
+}
 
 main form .form-group {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    gap: 1rem;
     padding-bottom: .3rem;
+    gap: 10px;
 }
 
 form .input-div {
@@ -72,26 +75,51 @@ form .input-div {
     font-family: "Lexend";
 }
 
+.title {
+    padding: 1rem 4rem;
+}
+.divider {
+    height: 100%;
+    border-left: 2px solid grey;
+}
+
 .info-section {
     display: grid;
-    grid-template-columns: 60% 40%;
-    gap: 4rem;
+    grid-template-columns: 49% 2% 49%;
+    gap: 1rem;
     height: 100%;
+    padding-left: 3rem;
+}
+
+.input-div.message {
+    font-family: "Lexend";
+    font-size: 10px;
+    width: 100%;
+    color: grey;
+    padding: 1rem 0rem;
 }
 
 .info-section form {
     height: 100%;
     width: 100%;
+    padding: 2rem 1rem;
 }
+
 
 .info-section .info-div {
-    border-left: 2px solid gray;
     height: fit-content;
-    padding: 1rem;
     font-family: "Lexend";
-    padding-right: 2rem;
+    max-width: 250px;
+    padding: 2rem 1rem;
 }
-
+.info-title {
+    width: 150px;
+    padding-bottom: 1rem;
+}
+.info-text {
+    font-family: "Lexend";
+    line-height: 15px;
+}
 .info-section .info-div p {
     font-size: 10px;
 }
@@ -101,7 +129,7 @@ form .input-div {
     position: relative;
     font-size: 10px;
     cursor: pointer;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .download::before {
@@ -126,12 +154,18 @@ form .input-div {
 nav {
     display: flex;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem ;
 
 }
 
 nav .brand {
     color: blue;
     font-family: "lexend";
+    height: 10vh;
 
+}
+
+nav .brand img {
+    height: 50%;
+    object-fit: contain;
 }
