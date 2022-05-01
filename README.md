@@ -1,7 +1,7 @@
 #### Upskill Assessment Result
 
 ## Introduction
-Hello there, this is repository for the assessment of upskill as entry requirements. The question as linked here is to build a UI like the picture attached in this repo and then after do some list item manupulations. 
+Hello there, this is repository for the assessment of upskill as entry requirements. The question as **[linked here](https://ask-questions-2d083.web.app/)** is to build a UI like the picture attached in this repo and then after do some list item manupulations. 
 
 ## How to test
 Starting by cloning this repository, follow the following commands to test on local machine
@@ -16,7 +16,9 @@ cd upskill-assessment
 // right click the file and choose open with live server
 // Happy Coding
 ```
+> For live version use the following link
 
+[https://feyton.github.io/upskill-assessment/](https://feyton.github.io/upskill-assessment/)
 ## Author
 This project has been authored and built by
 - Fabrice Hafashimana

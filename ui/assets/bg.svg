@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1880" height="1036" viewBox="0 0 1880 1036">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #31425b;
+        stroke-width: 2.51px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #419a73;
+        stroke: #0054a6;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-1" d="M25.521,539.415l213.534,121.13s137.271,39.5,165.234,186.962,193.2,81.631,223.7,160.633S689,1124,689,1124L-2.441,1110.83-17.694,557.848S-188.012,418.285,25.521,539.415Z" transform="translate(-40 -44)"/>
+    <path class="cls-2" d="M-9,696l168,92s108,30,130,142,152,62,176,122,48,88,48,88l-544-10L-43,710S-177,604-9,696Z" transform="translate(-40 -44)"/>
+    <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-1" d="M42.563,426.05L313.692,573.157s174.3,47.969,209.8,227.056S768.8,899.35,807.534,995.289,885,1136,885,1136L7.058,1120.01-12.309,448.436S-228.567,278.943,42.563,426.05Z" transform="translate(-40 -44)"/>
+  </g>
+</svg>

@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     min-height: 100vh;
     min-width: 100vh;
@@ -5,6 +11,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("./upskill2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
 }
 
 main {
@@ -13,6 +23,10 @@ main {
     box-shadow: 0px 0px 3px 3px gray;
     padding: 1rem 2rem;
     max-width: 60%;
+    background-image: url("./upskill.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 main h1 {
@@ -37,9 +51,11 @@ main form .form-group {
     gap: 1rem;
     padding-bottom: .3rem;
 }
+
 form .input-div {
     width: 100%;
 }
+
 .btn {
     padding: .5rem 1rem;
     outline: none;
@@ -51,7 +67,7 @@ form .input-div {
 }
 
 .btn.btn-send {
-    background-color: rgb(192, 46, 46);
+    background-color: #7f452e;
     color: white;
     font-family: "Lexend";
 }
@@ -75,6 +91,7 @@ form .input-div {
     font-family: "Lexend";
     padding-right: 2rem;
 }
+
 .info-section .info-div p {
     font-size: 10px;
 }
@@ -86,6 +103,7 @@ form .input-div {
     cursor: pointer;
     padding-left: 20px;
 }
+
 .download::before {
     content: ">";
     position: absolute;
@@ -104,14 +122,16 @@ form .input-div {
     background-color: black;
     color: white;
 }
+
 nav {
     display: flex;
     width: 100%;
     padding: 1rem 2rem;
 
 }
+
 nav .brand {
     color: blue;
     font-family: "lexend";
-    
+
 }

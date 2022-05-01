@@ -1,24 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
+    <title>Javascript| UpSkill</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../ui/assets/favicon.png" type="image/x-icon">
     <script src="index.js"></script>
+    <style>
+        * {
+            font-family: "Lexend";
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            padding: 1rem 4rem;
+            flex-direction: column;
+
+        }
+
+        pre code {
+            background-color: #eee;
+            border: 1px solid #999;
+            display: block;
+            padding: 20px;
+            width: fit-content;
+        }
+
+        .answer {
+            background-color: rgba(0, 0, 255, 0.267);
+            width: fit-content;
+            padding: 1px 1rem;
+            margin: 5px 10px;
+
+        }
+    </style>
 </head>
+
 <body>
+    <div class="info">
+        <h1>Answer to Qn2</h1>
+        <hr>
+        <h3>Given the following list</h3>
+        <pre>
+            <code>
+                const items = [
+                { name: "Bike", price: 100 },
+                { name: "TV", price: 200 },
+                { name: "Album", price: 10 },
+                { name: "Book", price: 5 },
+                { name: "Phone", price: 500 },
+                { name: "Computer", price: 1000 },
+                ];  
+            </code>
+        </pre>
+    </div>
     <div class="cheap">
+        Q1. Filter and show the product that will be bought when you don't have much money I mean Cheap one
+        <div class="answer" id="answer-1">
 
+        </div>
     </div>
+    <hr>
     <div class="expensive">
+        Q2. Filter and show the product that will be expensive in the array
+        <div class="answer" id="answer-2">
+
+        </div>
 
     </div>
+    <hr>
     <div class="full-price">
+        Q3. Calculate the full price of all product combined
+        <div class="answer" id="answer-3">
+
+        </div>
 
     </div>
+    <hr>
     <div class="exclude">
+        Q4. Calculate the full price of all product combined and remove product that are under the 10 dollar
+        <div class="answer" id="answer-4">
 
+        </div>
     </div>
 </body>
+
 </html>
